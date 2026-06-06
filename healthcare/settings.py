@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'patients',
     'doctors',
     'rest_framework',
+    "drf_spectacular",
 
 ]
 
@@ -132,5 +133,19 @@ STATIC_URL = 'static/'
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
-    )
+    ),
+    "DEFAULT_SCHEMA_CLASS":
+        "drf_spectacular.openapi.AutoSchema",
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Healthcare Management API",
+    "DESCRIPTION": "Healthcare Backend  APIs",
+    "VERSION": "1.0.0",
+    "SERVE_INCLUDE_SCHEMA": False,
+    "SECURITY": [
+        {
+            "BearerAuth": []
+        }
+    ],
 }
