@@ -50,12 +50,6 @@ The application follows RESTful API principles and uses PostgreSQL for persisten
 * Retrieve All Patient-Doctor Mappings
 * Retrieve All Doctors Assigned To A Patient
 * Remove Doctor Assignment From A Patient
-
-### API Documentation
-
-* Swagger UI Documentation
-* OpenAPI Schema Generation
-
 ---
 
 ## Technology Stack
@@ -71,12 +65,7 @@ The application follows RESTful API principles and uses PostgreSQL for persisten
 
 * JWT Authentication
 * djangorestframework-simplejwt
-
-### API Documentation
-
-* drf-spectacular
-* Swagger UI
-
+* 
 ### Development Tools
 
 * Postman
@@ -520,10 +509,4 @@ Response
 * Doctor Availability Scheduling
 
 ---
-
-## Author
-
-Anurag Singh
-
-GitHub: https://github.com/anurag433
 
