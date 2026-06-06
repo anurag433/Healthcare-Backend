@@ -65,7 +65,7 @@ The application follows RESTful API principles and uses PostgreSQL for persisten
 
 * JWT Authentication
 * djangorestframework-simplejwt
-* 
+  
 ### Development Tools
 
 * Postman
@@ -509,4 +509,22 @@ Response
 * Doctor Availability Scheduling
 
 ---
+## Why Django REST Framework?
+
+* Provides a fast and efficient way to build REST APIs.
+* Built-in serializers for data validation and transformation.
+* Supports JWT authentication and permissions.
+* Easy integration with Django ORM.
+* Reduces boilerplate code and improves development speed.
+* Widely used in production-grade backend applications.
+
+## Why PostgreSQL?
+
+* Powerful and reliable relational database.
+* Ensures data integrity through ACID compliance.
+* Handles complex relationships efficiently.
+* Scalable and suitable for production environments.
+* Excellent performance with large datasets.
+* Seamlessly integrates with Django ORM.
+
 
